@@ -1,5 +1,6 @@
 # multiplication-table
 multiplication table using for statement
+
 #include <stdio.h>
 
 int main()
@@ -17,6 +18,7 @@ int main()
 }
 
 multiplication table using while statement
+
 #include <stdio.h>
 
 int main()
@@ -39,6 +41,7 @@ int main()
 }
 
 multiplication table N by N
+
 #include <stdio.h>
 
 int main()

@@ -1,6 +1,7 @@
 # multiplication-table
-multiplication table using for statement
+[multiplication table using for statement]
 
+``` C
 #include <stdio.h>
 int main()
 {
@@ -15,9 +16,9 @@ int main()
 
 	return 0;
 }
-
-multiplication table using while statement
-
+```
+[multiplication table using while statement]
+``` C
 #include <stdio.h>
 int main()
 {
@@ -37,19 +38,21 @@ int main()
 
     return 0;
 }
+```
+[multiplication table N by N]
 
-multiplication table N by N
-
+``` C
 #include <stdio.h>
 int main()
 {
 	int num;
-
+	
 	printf("Enter the number you want multiplication table : ");
+	
 	scanf("%d", &num);
-
+	
 	printf("Table of %d\n", num);
-
+	
 	for (int i = 1; i <= 10; i++)
 	{
 		printf("%d X %d = %d \n", num, i, num * i);
@@ -57,3 +60,4 @@ int main()
 
 	return 0;
 }
+```
